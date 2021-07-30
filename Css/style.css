@@ -1,0 +1,140 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    position: fixed;
+    background-image: url("../images/Background/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.formstoemail{
+    color: rgb(100,100,0);
+    list-style: none;
+}
+.menu-bar
+{
+    width: 1550px;
+    background: rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    list-style-position: center;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -15px;
+    opacity: .8;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150;
+    padding: 10px;
+    border-bottom: 1px none #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:hover
+{
+    width: 150;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #b2ff00;
+}
+.fa-angle-right
+{
+    float: right;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0,100,0);
+}
+.contact-us-form
+{
+    width: 500px;
+    padding: 50px;
+    position: absolute;
+    display: block;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: rgb(100,100,0);
+    border-radius: 3px;
+}
+.contact-us-form label
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.required
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.contact-us-form h1
+{
+    width: 500px;
+    padding: 0px;
+    position: center;
+    float: left;
+    list-style: none;
+    color: #fff;
+}

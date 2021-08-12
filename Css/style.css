@@ -25,6 +25,7 @@ body
 }
 .menu-bar ul
 {
+    width: 100%;
     display: inline-flex;
     list-style: none;
     list-style-position: center;

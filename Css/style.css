@@ -19,7 +19,7 @@ body
 }
 .menu-bar
 {
-    width: 1550px;
+    width: 100%;
     background: rgb(0,100,0);
     text-align: center;
 }
